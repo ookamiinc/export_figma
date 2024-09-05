@@ -30,6 +30,9 @@ enum TextCase {
 
 /// Text decoration applied to the node, default is none.
 enum TextDecoration {
+  @JsonValue('NONE')
+  none,
+  
   /// Strikethrough text decoration, e.g. "H̶e̶l̶l̶o̶"
   @JsonValue('STRIKETHROUGH')
   strikeThrough,

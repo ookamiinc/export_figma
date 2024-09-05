@@ -334,6 +334,7 @@ const _$TextCaseEnumMap = {
 };
 
 const _$TextDecorationEnumMap = {
+  TextDecoration.none: 'NONE',
   TextDecoration.strikeThrough: 'STRIKETHROUGH',
   TextDecoration.underline: 'UNDERLINE',
 };
